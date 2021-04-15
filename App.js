@@ -14,7 +14,7 @@ class App extends Component {
   async componentDidMount() {
     const response = await api.get('items');
     this.setState({
-      produtos: response.data,
+      produtos: response.data
     });
   }
   render() {

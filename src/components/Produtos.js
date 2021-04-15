@@ -18,7 +18,7 @@ export default class Produtos extends Component {
           <Image
             onError={() =>
               this.setState({
-                image: loading,
+                image: loading
               })
             }
             source={{
